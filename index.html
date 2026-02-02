@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WOW CSS Grid Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <!-- HEADER -->
+  <header class="header">
+    <button id="menuBtn">☰</button>
+    <h1>CSS Grid WOW</h1>
+
+    <div class="controls">
+      <button id="layoutBtn">🔲 Layout</button>
+      <button id="inspectBtn">🧩 Grid</button>
+      <button id="themeBtn">🌙</button>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <nav>
+      <a href="#">🏠 Dashboard</a>
+      <a href="#">📊 Analytics</a>
+      <a href="#">📁 Projects</a>
+      <a href="#">⚙ Settings</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="card" draggable="true">Users <span>1,245</span></div>
+    <div class="card" draggable="true">Revenue <span>₹98K</span></div>
+    <div class="card" draggable="true">Visits <span>12.4K</span></div>
+    <div class="card" draggable="true">Tasks <span>32</span></div>
+    <div class="card" draggable="true">Growth <span>+18%</span></div>
+    <div class="card" draggable="true">Alerts <span>3</span></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2026 Advanced CSS Grid Dashboard
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
